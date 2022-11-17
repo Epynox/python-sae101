@@ -36,5 +36,5 @@ with open("Site_IUT_pas_touche.csv", encoding="utf16") as data:
     plt.pie(data, startangle=90, autopct='%1.1f%%')
     plt.axis('equal')
     plt.legend(name)
-    plt.title("Systèmes d'exploitation des visiteurs du site de")
+    plt.title("Pays des visiteurs du site de L'IUT")
     plt.show()
